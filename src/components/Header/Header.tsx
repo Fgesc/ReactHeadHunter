@@ -1,5 +1,6 @@
 import { Box, Group, Text, useMantineTheme } from "@mantine/core";
 import HumanIcon from "../../assets/human.svg"
+import HHIcon from "../../assets/imageHH.svg"
 
 export const Header = () => {
     const theme = useMantineTheme();
@@ -17,7 +18,7 @@ export const Header = () => {
         >
             <Group justify="space-between" align="center" maw={828}>
                 <Group align="center" gap="xs">
-                    <img src="/imageHH.svg" alt="HH" data-testid="logo-hh"/>
+                    <img src={HHIcon} alt="HH" data-testid="logo-hh"/>
                     <Text fw={600} data-testid="header-title">.FrontEnd</Text>
                 </Group>
 
