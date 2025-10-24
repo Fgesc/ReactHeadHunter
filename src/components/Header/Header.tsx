@@ -17,7 +17,7 @@ export const Header = () => {
         >
             <Group justify="space-between" align="center" maw={828}>
                 <Group align="center" gap="xs">
-                    <img src="src/assets/hh.svg" alt="hh" data-testid="logo-hh"/>
+                    <img src="src/assets/hhLogo.svg" alt="hh" data-testid="logo-hh"/>
                     <Text fw={600} data-testid="header-title">.FrontEnd</Text>
                 </Group>
 
