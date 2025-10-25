@@ -1,7 +1,7 @@
 import { Box, Group, Text, useMantineTheme } from "@mantine/core";
 import HumanIcon from "../../assets/human.svg"
-import HHIcon from "../../assets/imageHH.svg"
-
+import HHIcon from "../../assets/HHunter.png"
+//Logo - намеренно в png, svg не хочет билдиться, ни напрямую ни через импорт
 export const Header = () => {
     const theme = useMantineTheme();
 
